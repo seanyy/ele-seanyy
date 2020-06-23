@@ -1,0 +1,178 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+html{
+	font-size: 10px;
+}
+div{
+	box-sizing: border-box;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 11px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 12px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 15px !important;}
+}
+.pingjia{
+	width: 100%;
+	position: absolute;
+	top: 18rem;
+	overflow: hidden;
+}
+.pingjia-top{
+	width: 100%;
+	height: 11.5rem;
+	padding: 1.8rem 1.5rem;
+}
+.pingjia-top>.left{
+	float: left;
+	width: fit-content;
+	height: auto;
+	text-align: center;
+	border-right: 1px solid;
+	border-color: rgb(224, 225, 226);
+	padding-right: 1rem;
+}
+.pingjia-top>.left .p1{
+	color: rgb(255,153,0);
+	font-size: 2rem;
+}
+.pingjia-top>.left h5{
+	font-weight: bold;
+}
+.pingjia-top>.left .p2{
+	font-size: 1rem;
+}
+.pingjia-top>.right{
+	float: left;
+	padding-left: 1rem;
+}
+.pingjia-top>.right li{
+	display: flex;
+	align-items: center;
+	margin: 0;
+	line-height: 3rem;
+	font-weight: bold;
+}
+.pingjia-top>.right li div{
+	display: flex;
+	align-items: center;
+}
+.pingjia-top>.right li span{
+	margin: 0 0.3rem;
+}
+.pingjia-top>.right li .span1{
+	color: rgb(255,135,0);
+	font-weight: 100;
+}
+.pingjia-top>.right li .span2{
+	color: rgb(193, 193, 193);
+	font-weight: 100;
+}
+.pingjia-center{
+	width: 100%;
+	height: auto;
+}
+.pingjia-center>.center1{
+	width: 100%;
+	height: 2rem;
+	background: #f3f5f7;
+	border: 1px solid #d4d6d9;
+	border-left: 0;
+	border-right: 0;
+}
+.pingjia-center>.center2{
+	width: 100%;
+	height: 12rem;
+	padding: 1.5rem;
+	border-bottom: 1px solid #e6e7e8;
+}
+.pingjia-center>.center2 button{
+	padding: 0.5rem 1rem;
+	border: 0;
+	border-radius: 0.2rem;
+	outline: none;
+}
+.pingjia-center>.center2 .btn1{
+	background: #00a0dc;
+	color: white;
+}
+.pingjia-center>.center2 .btn2{
+	background: #ccecf8;
+}
+.pingjia-center>.center2 .btn3{
+	background: #e9ebec;
+}
+.pingjia-center>.center2 a{
+	color: #b7bbbf;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+.spana{
+	width: 2rem;
+	height: 2rem;
+	background: #b7bbbf;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	padding-top: 0.5rem;
+	border-radius: 50%;
+}
+.pingjia-center>.center3{
+	width: 100%;
+	height: auto;
+}
+.pingjia-center>.center3 ul{
+	width: 100%;
+	height: auto;
+}
+.pingjia-center>.center3 li{
+	width: 100%;
+	height: 17rem;
+	padding: 1.5rem 0;
+	border-bottom: 1px solid;
+	border-bottom-color: rgb(224, 225, 226);
+	width: 90%;
+	margin: 0 auto;
+}
+.pingjia-center>.center3 li .left{
+	float: left;
+	width: 12%;
+	height: 13rem;
+}
+.pingjia-center>.center3 li .left img{
+	width: 100%;
+	border-radius: 50%;
+}
+.pingjia-center>.center3 li .right{
+	float: left;
+	width: 88%;
+	padding-left: 1rem;
+	overflow: overlay;
+}
+.pingjia-center>.center3 li .right h5{
+	/* font-weight: bold; */
+}
+.pingjia-center>.center3 .span1{
+	display: inline-block;
+	padding: 0.2rem 1rem;
+	font-size: 1rem;
+	border: 1px solid;
+	color: #a5a5a5;
+	margin-left: 0.5rem;
+	margin-top: 0.5rem;
+}

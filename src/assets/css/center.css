@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+html{
+	font-size: 10px;
+}
+div{
+	box-sizing: border-box;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 11px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 12px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 15px !important;}
+}
+.center{
+	position: fixed;
+	top: 14rem;
+	width: 100%;
+	height: 4rem;
+	background: white;
+	z-index: 10;
+}
+.center .ul1{
+	width: 100%;
+	height: 4rem;
+	position: fixed;
+	border-bottom: 1px solid;
+	border-bottom-color: rgb(7,17,27,0.1);
+	display: flex;
+	justify-content: space-between;
+}
+.center .ul1 li{
+	width: 33%;
+	text-align: center;
+	line-height: 4rem;
+	font-size: 1.4rem;
+}

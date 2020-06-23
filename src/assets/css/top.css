@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+html{
+	font-size: 10px;
+}
+div{
+	box-sizing: border-box;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 11px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 12px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 15px !important;}
+}
+.top{
+	position: fixed;
+	width: 100%;
+	height: 14rem;
+	overflow: hidden;
+	background: white;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.top>.bg{
+	position: absolute;
+	width: 100%;
+	height: 10.5rem;
+	top: 0;
+	background:rgb(97,103,109,0.7);
+	display: flex;
+	padding: 2.3rem;
+	color: white;
+	/* justify-content: space-between; */
+	/* align-items: center; */
+}
+.top>.img{
+	width: 100%;
+	height: 14rem;
+	text-align: center;
+}
+.top>.img>img{
+	width: 100%!important;
+	filter: blur(20px);
+}
+.top>.top-bottom{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 3.5rem;
+	padding: 0.4rem 1.2rem;
+	background: rgb(7,17,27,0.5);
+	line-height: 2.8rem;
+	overflow: hidden;
+}
+.top>.top-bottom>p{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: white;
+}
+.top>.top-bottom>p .span1{
+	padding: 0 0.5rem;
+	font-size: 1.2rem;
+	background: white;
+	float: left;
+	display: inline-block;
+	line-height: 2rem;	
+	border-radius: 0.5rem;
+	font-weight: bold;
+	margin-top: 0.3rem;
+	color: black;
+}
+.top>.top-bottom>p .span2{
+	font-size: 1.5rem;
+	padding-left: 1rem;
+}
+.top>.bg>div{
+	width: -webkit-fit-content;
+}
+.top>.bg>.head-left>img{
+	width: 6.4rem;	
+	height: 6.4rem;
+}
+.top>.bg>.head-center{
+	padding-left: 1.5rem;
+}
+
+.top>.bg>.head-center .img1{
+	width: 3.2rem!important;
+	padding-right: 0.5rem;
+}
+.top>.bg>.head-center .img2{
+	width: 2rem!important;
+	padding-right: 0.5rem;
+}
+.top>.bg>.head-center li{
+	line-height: 1.8rem;
+	display: flex;
+	align-items: center;
+}
+.top>.bg>.head-center li h5{
+	font-size: 1.2rem;
+}
+.top>.bg>.head-center .span1{
+	font-size: 1.5rem;
+	display: inline-block;
+	font-weight: bold;
+}
+.top>.bg>.head-center .span3{
+	font-size: 1rem;
+}
+.top>.bg>.head-right a{
+	width: 4.5rem;
+	font-size: 0.9rem;
+	color: white;
+	border-radius: 1.2rem;
+	text-decoration: none;
+	/* padding: 0.6rem 1.5rem; */
+	text-align: center;
+	padding: 0.6rem 0;
+	background: rgb(0,0,0,0.2);
+}
+.top>.bg>.head-right{
+	display: flex;
+	align-items: flex-end;
+}

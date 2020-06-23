@@ -1,0 +1,357 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+html{
+	font-size: 10px;
+}
+div{
+	box-sizing: border-box;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 11px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 12px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 15px !important;}
+}
+.shangping{
+	width: 100%;
+	position: absolute;
+	top: 18rem;
+	bottom: 5rem;
+	overflow: scroll;
+}
+.shangping .center-left{
+	position: fixed;
+	width: 22%;
+	height: 100%;
+	background: #f3f5f7;
+}
+.shangping .center-left ul{
+	width: 100%;
+	box-sizing: border-box;
+}
+.shangping .center-left ul li{
+	padding: 1rem;
+	width: 100%;
+	height: 4.25rem;
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+	border-bottom: 1px solid;
+	border-bottom-color: rgb(7,17,27,0.1);
+}
+.shangping .center-left ul li a{
+	color: rgb(7,17,27);
+	text-decoration: none;
+}
+.shangping .center-right{
+	position: absolute;
+	/* z-index: -1; */
+	margin-left: 22%;
+	width: 78%;
+	height: auto;
+}
+.shangping .center-right ul{
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+.shangping .center-right ul li{
+	position: relative;
+	width: 100%;
+	padding: 0.5rem 1.5rem;
+	border-bottom: 1px solid;
+	border-bottom-color: rgb(7,17,27,0.1);
+	display: flex;
+}
+.shangping .center-right ul .li1{
+	line-height: 2.7rem;
+	background: #F3F5F7;
+	border-left: 1px solid;
+	border-left-color: rgb(7,17,27,0.1);
+	color: rgb(147,153,159);
+	font-size: 1.3rem;
+	padding: 0!important;
+	padding-left: 1rem!important;
+}
+.shangping .center-right .imgs{
+	width: 25%!important;
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+.shangping .center-right .imgs img{
+	width: 100%;
+	height: 6rem;
+	border-radius: 0.3rem;
+}
+.shangping .center-right .text{
+	width: fit-content;
+	height: auto;
+	line-height: 1.5rem;
+	padding-left: 1rem;
+}
+.shangping .center-right .text .p1{
+	font-size: 1rem;
+	color: rgb(147,153,159);
+}
+.shangping .center-right .text .p2{
+	font-size: 1.5rem;
+	color:red;
+}
+.shangping .center-right .text .p2 span{
+	text-decoration: line-through;
+	font-size: 1rem;
+	color:#969696;
+	margin-left: 0.5rem;
+}
+.jia .a1{
+	width: 2.2rem;
+	height: 2.2rem;
+	position: absolute;
+	bottom: 1rem;
+	right: 7rem;
+	margin-top: -2rem;
+	border: 3px solid;
+	border-color: rgb(0,160,220);
+	border-radius: 50%;
+	color: rgb(0,160,220);
+	text-decoration: none;
+	font-size: 2rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.jia span{
+	width: 2.2rem;
+	height: 2.2rem;
+	position: absolute;
+	bottom: 1rem;
+	right: 4.5rem;
+	margin-top: -2rem;
+	color: gray;
+	text-decoration: none;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ .jia .a2{
+	width: 2.2rem;
+	height: 2.2rem;
+	position: absolute;
+	bottom: 1rem;
+	right: 2rem;
+	margin-top: -2rem;
+	background: rgb(0,160,220);
+	border-radius: 50%;
+	color: white;
+	text-decoration: none;
+	font-size: 2rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.shangping .center-right .text h2{
+	font-size: 1.4rem;
+	font-weight: 600;
+	letter-spacing: 0.1rem;
+}
+
+.shangping-bottom{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	height: 5rem;
+}
+.orange{
+	color: red;
+}
+.all{
+	z-index: 20;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%	;
+	height: 100%;
+	background: white;
+	overflow: scroll;
+}
+.all>span{
+	width: 2.5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+	position: absolute;
+	background-color:rgb(255,255,255,0.3);
+	margin: 1rem;
+	border-radius: 50%;
+}
+.all>img{
+	width: 100%;
+	height: 33rem;
+}
+.li2{
+	background: white;
+}
+.content{
+	width: 100%;
+	height: auto;
+	padding: 1rem 2rem;
+	position: relative;
+}
+h4{
+	font-weight: 600!important;
+}
+.content>.p1{
+	color: darkgray;
+}
+.content>.p2{
+	display: inline-block;
+	font-weight: bold;
+	color:rgb(240,20,20);
+	font-size: 2rem;
+}
+.content>.p2 span{
+	font-size: 1.2rem;
+	color: darkgray;
+	text-decoration: line-through;
+}
+.content>button{
+	padding: 0.5rem 1rem;
+	background-color: rgb(0,160,220);
+	color: white;
+	float: right;
+	border: 0;
+	border-radius: 1.5rem;
+	outline: none;
+}
+.kong{
+	width: 100%;
+	height: 2rem;
+	background: #F3F5F7;
+	border-top: 1px solid;
+	border-top-color: rgb(7,17,27,0.1);
+	border-bottom: 1px solid;
+	border-bottom-color: rgb(7,17,27,0.1);
+}
+.kong1{
+	width: 100%;
+	height: 2rem;
+	background: #F3F5F7;
+	border-top: 1px solid;
+	border-top-color: rgb(7,17,27,0.1);
+	border-bottom: 1px solid;
+	border-bottom-color: rgb(7,17,27,0.1);
+}
+.content1{
+	width: 100%;
+	height: auto;
+	padding: 1rem 2rem;
+}
+.content1 p{
+	color: rgb(77,85,93);
+}
+.content2{
+	padding: 1rem 2rem;
+	border-bottom: 1px solid;
+	border-bottom-color: rgb(235, 235, 235);
+}
+.content2>button{
+	padding: 0.5rem 1.5rem;
+	border: 0;
+	border-radius: 0.2rem;
+	outline: none;
+}
+.content2>.btn1{
+	background: rgb(0,160,220);
+	color: white;
+}
+.content2>.btn2{
+	background: rgb(0,160,220,0.2);
+	color: rgb(77,85,93);
+}
+.content2>.btn3{
+	background: rgb(77,85,93,0.2);
+	color: #000000;
+}
+.content2 a{
+	color: #b7bbbf;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+}
+.spana{
+	width: 2rem;
+	height: 2rem;
+	background: #b7bbbf;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	padding-top: 0.5rem;
+	border-radius: 50%;
+}
+.content3{
+	padding: 1rem 2rem;
+}
+.content3 li{
+	width: 100%;
+	height: 6.5rem;
+	border-bottom: ;
+	color: darkgray;
+}
+.content3 li h5{
+	font-weight: bold;
+	color: black;
+}
+.content3 li div{
+	display: flex;
+	justify-content: space-between;
+}
+.content3 li img{
+	width: 1.5rem;
+	border-radius: 50%;
+}
+.blue{
+	background: #00A0DC;
+}
+#jia{
+	width: 10rem;
+	height: 5rem;
+	right: 0;
+	position: absolute;
+	bottom: 1rem;
+}
+.gouwuche-head li{
+	float: left;
+	width: 100%;
+	position: relative;
+	/* display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap; */
+}
+.gouwuche-head li p{
+	float: left;
+	width:50%;
+}
+.gouwuche-head li .jia1{
+	width: 50%;
+	float: right;
+}

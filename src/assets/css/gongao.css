@@ -1,0 +1,134 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+html{
+	font-size: 10px;
+}
+div{
+	box-sizing: border-box;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 11px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 12px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 15px !important;}
+}
+.gonggao{
+	z-index: 10;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(7,17,27,0.98);
+	top: 0;
+	padding: 3rem 3.2rem;
+	color: white;
+	text-align: center;
+}
+.gonggao>.gonggao-top>div{
+	margin: 0 auto;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.6rem;
+}
+.gonggao>.gonggao-top span{
+	text-align: center;
+	/* margin-left: 2rem; */
+}
+.gonggao>.gonggao-top .img1{
+	margin: 0!important;
+}
+.gonggao>.gonggao-top h4{
+	font-weight: bold;
+	text-align: center;
+}
+.gonggao>.gonggao-center{
+	width: 100%;
+	height: auto;
+	margin-top: 2rem;
+}
+.gonggao>.gonggao-center p{
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+}
+.gonggao>.gonggao-center p:before{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 38%;
+	background: rgb(255,255,255,0.2);
+	left: 0;
+	top: 50%;
+}
+.gonggao>.gonggao-center p::after{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 38%;
+	background: rgb(255,255,255,0.2);
+	right: 0;
+	top: 50%;
+}
+.gonggao>.gonggao-center li{
+	line-height: 3rem;
+	font-size: 1.2rem;
+	text-align: left;
+}
+.gonggao>.gonggao-center li img{
+	width: 2rem;
+	height: 2rem;
+}
+.gonggao>.gonggao-bottom{
+	width: 100%;
+	height: auto;
+	margin-top: 2rem;
+}
+.gonggao>.gonggao-bottom .p1{
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+}
+.gonggao>.gonggao-bottom .p1:before{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 38%;
+	background: rgb(255,255,255,0.2);
+	left: 0;
+	top: 50%;
+}
+.gonggao>.gonggao-bottom .p1:after{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 38%;
+	background: rgb(255,255,255,0.2);
+	right: 0;
+	top: 50%;
+}
+.gonggao>.gonggao-bottom .p2{
+	line-height: 2em;
+	padding: 1rem;
+	font-size: 1.2rem;
+	text-align: left;
+}
+.gonggao>.a1{
+	width: 5rem;
+	height: 5rem;
+	font-size: 2.5rem;
+	color: rgb(255,255,255,0.5);
+}

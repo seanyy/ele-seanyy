@@ -1,0 +1,137 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+html{
+	font-size: 10px;
+}
+div{
+	box-sizing: border-box;
+}
+@media only screen and (min-width: 371px){
+    html {font-size: 11px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 12px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 13px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 14px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 15px !important;}
+}
+.shangjia{
+	width: 100%;
+	position: absolute;
+	top: 18rem;
+	overflow: hidden;
+}
+.shangjia1{
+	padding: 1rem 1.5rem;
+	width: 100%;
+	height: auto;
+}
+.shangjia1 ul{
+	width: 100%;
+	height: 5.5rem;
+}
+.shangjia1 li{
+	float: left;
+	width: 33%;
+	height: auto;
+	text-align: center;
+}
+.shangjia1 li p{
+	color: #8d8e8f;
+}
+.shangjia1 li h1{
+	font-weight: 100;
+	margin: 0;
+}
+.shangjia1 li h1 span{
+	font-size: 1.5rem;
+}
+.shangjia2{
+	width: 100%;
+	height: 2rem;
+	background: #f3f5f7;
+	border: 1px solid #d4d6d9;
+	border-left: 0;
+	border-right: 0;
+}
+.shangjia3{
+	width: 100%;
+	height: auto;
+	padding: 1rem 1.5rem;
+}
+.shangjia3 p{
+	color: rgb(240,20,20);
+	line-height: 1.8rem;
+	font-size: 1.2rem;
+}
+.shangjia3 ul{
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+.shangjia3 li{
+	width: 100%;
+	margin: 0 auto;
+	height: 4rem;
+	border-top: 1px solid #e6e8e5;
+	line-height: 4rem;
+}
+.tt{
+	width: 100%;
+	height: 5rem;
+}
+.shangjia4{
+	width: 100%;
+	height: 15rem;
+	padding: 1.2rem 1.5rem;
+	overflow: hidden;
+}
+.shangjia4 ul{
+	width: 200%;
+}
+.shangjia4 li{
+	float: left!important;
+	width: 12rem;
+	height: 9rem;
+	margin-right: 1rem;
+}
+ .shangjia4 h4{
+	font-weight: 500!important;
+}
+.shangjia4 li img{
+	width: 100%;
+	height: 100%;
+}
+.favorite{
+	position: absolute;
+	right: 18px;
+	top: 18px;
+	width: 44px;
+	text-align: center;
+	.glyphicon{
+		display: block;
+		font-size: 2.4rem!important;
+		line-height: 24px;
+		color: #d4d6d9;
+		margin-bottom: 4px;
+		&.active{
+			color: rgb(240,20,20);
+		}
+	}
+	.text{
+		font-size: 10px;
+		line-height: 10px;
+		color: rgb(77,85,93);
+	}
+}
